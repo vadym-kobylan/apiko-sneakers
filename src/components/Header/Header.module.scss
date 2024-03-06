@@ -1,0 +1,84 @@
+header {
+  background: #110f21;
+  padding: 17px 0;
+  color: #ffffff;
+
+  .container {
+    width: min(100% - 40px, 1120px);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 102px;
+      height: auto;
+    }
+
+    .headerMenu {
+      display: flex;
+      align-items: center;
+
+      .likeCartButtonWrapper {
+        display: flex;
+        gap: 25px;
+
+        a {
+          height: 18px;
+
+          img {
+            height: 100%;
+            width: auto;
+          }
+        }
+      }
+
+      .authButtonWrapper {
+        display: flex;
+        margin-left: 42px;
+        gap: 15px;
+        align-items: center;
+
+        .separator {
+          background: #fd7114;
+          height: 13px;
+          width: 2px;
+        }
+
+        .authButton {
+          background: transparent;
+          padding: 0;
+          border: none;
+          color: #ffffff;
+          text-transform: uppercase;
+        }
+      }
+
+      .userMenu {
+        display: flex;
+        align-items: center;
+        margin-left: 32px;
+
+        p {
+          color: #ffffff;
+          font-size: 12px;
+          line-height: 17.63px;
+        }
+
+        .imageWrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 36px;
+          width: 36px;
+          color: #110f21;
+          background: #dedee0;
+          border-radius: 50%;
+          border: solid 2px #fd7114;
+          margin-left: 15px;
+          margin-right: 11px;
+        }
+      }
+    }
+  }
+}
